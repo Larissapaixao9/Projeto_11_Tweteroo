@@ -7,11 +7,11 @@ server.use(express.json())
 const users=[];
 const tweets=[];
 //const avatar=[]
-const userObject={
+const userObject=[{
     username:"",
     avatar:"",
     tweet:""
-}
+}]
 //imagemTeste:https://i.pinimg.com/originals/be/ab/2d/beab2dfc7b0ba0e7640404d424c24ef0.jpg
 
 server.post('/sign-up',(request,response)=>{
